@@ -6,9 +6,10 @@ using namespace std;
 
 int main()
 {
-    int n,i,v[100],s=0;
+    int n,i,s=0;
     float ma;
     cin>>n;
+    int v[n];
     for(i=1;i<=n;i++)
     {
         cout<<"["<<i<<"]=";cin>>v[i];
