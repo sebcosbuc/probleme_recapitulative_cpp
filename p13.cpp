@@ -8,9 +8,10 @@ using namespace std;
 
 int main()
 {
-    int n,v[100],i,x=0,p,s=0,j=0;
+    int n,i,x=0,p,s=0,j=0;
     float ma;
     cin>>n;
+    int v[n];
     for(i=1;i<=n;i++)
     {
         cout<<"["<<i<<"]=";cin>>v[i];
